@@ -29,7 +29,7 @@ x0 = float(input("Input x0: "))
 epsilon = float(input("Input required accuracy (epsilon): "))
 
 aitken_scheme(X,Y,0)
-print(ans_list)
+#print(ans_list)
 if len(X) > 2:
     for i in range(len(ans_list)):
         try:
